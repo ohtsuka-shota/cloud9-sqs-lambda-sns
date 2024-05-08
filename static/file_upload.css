@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif; /* フォントファミリーを指定 */
+    background-color: #f4f4f4; /* 背景色を指定 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 影をつける */
+    width: 300px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* マージンで余白を設定 */
+    border: 2px solid #ddd; /* 枠線を指定 */
+    border-radius: 4px; /* 角を丸くする */
+    display: block;
+}
+
+button {
+    background-color: #0056b3; /* ボタンの背景色 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* ホバー時にカーソルをポインターに変更 */
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004494; /* ホバー時の背景色を変更 */
+}
